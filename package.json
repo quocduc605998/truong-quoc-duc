@@ -1,0 +1,32 @@
+{
+  "name": "server1",
+  "version": "1.0.0",
+  "description": "server1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phong",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "chartist": "^0.11.4",
+    "chartjs": "^0.3.24",
+    "dateformat": "^5.0.3",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "log-timestamp": "^0.3.0",
+    "mongodb": "^4.17.2",
+    "mongoose": "^6.10.0",
+    "morgan": "^1.10.0",
+    "mqtt": "^5.3.6",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}
